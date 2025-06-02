@@ -1,0 +1,11 @@
+[package]
+name = "beg_ts_bot"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ts3-query = "0.3.2"
+teloxide = { version = "0.15.0", features = ["macros"] }
+tokio = { version =  "1.8", features = ["rt-multi-thread", "macros"] }
+serde = "1.0"
+serde_json = "1.0"
